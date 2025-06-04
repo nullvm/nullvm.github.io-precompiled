@@ -1,6 +1,6 @@
 baseURL: /
 languageCode: en-us
-title: faultint
+title: nullvm
 theme: papermod
 pagination.pagerSize: 5
 
@@ -95,7 +95,7 @@ languages:
     # languageName: ":indonesia:"
     contentDir: "content/id"
     weight: 2
-    title: faultint
+    title: nullvm
     taxonomies:
       category: IDcategories
       tag: IDtags
