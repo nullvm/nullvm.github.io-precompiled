@@ -4,6 +4,10 @@ title: nullvm
 theme: papermod
 pagination.pagerSize: 5
 
+services:
+  disqus:
+    shortname: deniandriancode-github-io
+
 outputs:
   home:
     - HTML
@@ -19,172 +23,45 @@ outputs:
     - rss
     - html
     
-languages:
-  en:
-    params:
-      # homeInfoParams:
-      #   Title: $HOME
-      #   Content: Thoughts about programming, computer science, mathematics, and human languages.
-      profileMode:
-        enabled: true
-        Title: $HOME
-        subtitle: Thoughts about programming, computer science, mathematics, and human languages.
-        imageUrl: "/author_profile.png"
-      editPost:
-        URL: "https://github.com/deniandriancode/deniandriancode.github.io-precompiled/tree/main/content/en"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
-      displayFullLangName: true
-    languageName: "en"
-    # languageName: ":us:"
-    contentDir: "content/en"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: Posts
-          url: posts
-          weight: 5
-        # - name: Search
-        #   url: search/
-        #   weight: 10
-        # - name: Archives
-        #   url: archives/
-        #   weight: 15
-        # - name: Bookmark
-        #   url: bookmark/
-        #   weight: 17
-        - name: About
-          url: about/
-          weight: 20
-
-  id:
-    params:
-      env: production
-      profileMode:
-        enabled: true
-        title: "$HOME" # optional default will be site title
-        subtitle: "Ide-ide seputar pemrograman, komputasi, matematika, dan bahasa manusia."
-        imageUrl: "/author_profile.png" # optional
-        # imageTitle: "<title of image as alt>" # optional
-        # imageWidth: 120 # custom size
-        # imageHeight: 120 # custom size
-        # buttons:
-      # homeInfoParams:
-      #   Title: $HOME
-      #   Content: Ide-ide seputar pemrograman, komputasi, matematika, dan bahasa manusia.
-      editPost:
-        URL: "https://github.com/deniandriancode/deniandriancode.github.io-precompiled/tree/main/content/id"
-        Text: "Sarankan Edit" # edit text
-        appendFilePath: true # to append file path to Edit link
-      socialIcons:
-        - name: github
-          url: "https://github.com/deniandriancode"
-        - name: discord
-          url: "https://discord.com/users/871707742312726590"
-        - name: email
-          url: "mailto:deniandriancode@gmail.com"
-        - name: "rss"
-          url: "/id/index.xml"
-
-      displayfulllangname: true
-    languageName: "id"
-    # languageName: ":indonesia:"
-    contentDir: "content/id"
-    weight: 2
-    title: nullvm
-    taxonomies:
-      category: IDcategories
-      tag: IDtags
-      series: IDseries
-    menu:
-      main:
-        - name: Artikel
-          url: posts/
-          weight: 5
-        - name: Tentang
-          url: about/
-          weight: 15
-        # - name: Terjemahan
-        #   url: tl/
-        #   weight: 20
-        # - name: Mahad
-        #   url: mahad/
-        #   weight: 20
-
-enableRobotsTXT: true
-enableEmojie: true
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
-
-markup:
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    hl_inline: false
-    lineAnchors: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    noHl: false
-    style: onedark
-    tabWidth: 4
-  goldmark:
-    extensions:
-      passthrough:
-        delimiters:
-          block:
-          - - \[
-            - \]
-          - - $$
-            - $$
-          inline:
-          - - \(
-            - \)
-          - - \$
-            - \$
-        enable: true
-
-services:
-  disqus:
-    shortname: deniandriancode-github-io
-        
 params:
-  env: production
-  author: ["nullvm"]
-  email: deniandriancode@gmail.com
-    
-  math: false
-  comments: true
-  
+  author: "Deni A. Prayoga"
+  homeInfoParams:
+    Title: $HOME
+    Content: Thoughts about programming, computer science, mathematics, and human languages.
   socialIcons:
     - name: github
-      url: "https://github.com/nullvm"
-    - name: discord
+      title: View Source on Github
+      url: "https://github.com/nullvm/nullvm.github.io-precompiled"
+    - name: Discord
+      title: Contact me on Discord
       url: "https://discord.com/users/871707742312726590"
-    - name: email
+    - name: Email
+      title: Send email
       url: "mailto:deniandriancode@gmail.com"
-    - name: "rss"
-      url: "/en/index.xml"
-
   editPost:
-    URL: "https://github.com/deniandriancode/deniandriancode.github.io-precompiled/tree/main/content"
+    URL: "https://github.com/nullvm/nullvm.github.io-precompiled/tree/main/content/en"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-
-  ShowToc: false
-  ShowPageNums: true
   ShowReadingTime: true
-  ShowCodeCopyButtons: false
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowWordCount: true
-  disableScrollToTop: false
-  ShowFullTextinRSS: false
-  ShowRssButtonInSectionTermList: true
+  comments: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - name: Post
+      url: posts
+      weight: 5
+    - name: Archive
+      url: archives
+      weight: 10
+    - name: Search
+      url: search
+      weight: 15
