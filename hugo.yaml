@@ -24,7 +24,7 @@ outputs:
     - html
     
 params:
-  author: "Deni A. Prayoga"
+  author: "Deni Andrian Prayoga"
   homeInfoParams:
     Title: $HOME
     Content: Thoughts about programming, computer science, mathematics, and human languages.
