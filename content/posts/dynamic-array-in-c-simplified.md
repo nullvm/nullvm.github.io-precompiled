@@ -14,7 +14,7 @@ of array is also a trivial thing to do. One of the most important use
 of array is that is it used to implement other more complex data structures
 such as linked list, binary tree and hash tables.
 
-But what is greater that array? Yup, dynamic array.
+But what is greater than array? Yup, dynamic array.
 
 We will create an echo program to see how we can implement dynamic array
 in C programming language.
