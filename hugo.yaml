@@ -30,7 +30,7 @@ params:
   author: "Deni Andrian Prayoga"
   homeInfoParams:
     Title: $HOME
-    Content: Thoughts about programming, computer science, mathematics, and human languages.
+    Content: Thoughts about programming, computer science, mathematics, games, and human languages.
   socialIcons:
     - name: github
       title: View Source on Github
