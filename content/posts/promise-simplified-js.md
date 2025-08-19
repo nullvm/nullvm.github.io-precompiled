@@ -3,6 +3,7 @@ title: 'Javascript Promise Simplified'
 date: 2024-10-21T20:08:35+07:00
 draft: false
 description: ''
+tags: ['javascript']
 ---
 
 Promise has three different states: pending, resolve, and reject.

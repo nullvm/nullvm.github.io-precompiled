@@ -3,6 +3,7 @@ title = 'Review of Pointer in C'
 date = 2024-07-03T15:07:47+07:00
 draft = false
 description = ''
+tags = ["c"]
 [cover]
 image = "https://raw.githubusercontent.com/deniandriancode/website-assets/main/images/github-page/OIG1.Ae1bF6jUwFBOJBWiq48q.jpg"
 caption = "Source: DALL-E"

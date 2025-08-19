@@ -3,6 +3,7 @@ title: 'PicoCTF Writeup #505'
 date: 2025-08-19T11:27:28+07:00
 draft: false
 description: ''
+tags: ['ctf', 'forensics']
 ---
 
 ## PicoCTF Writeup – Forensics Disk Image

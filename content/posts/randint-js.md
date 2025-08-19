@@ -3,6 +3,7 @@ title: 'Generate Ranged Random Integer in Javascript'
 date: 2024-10-26T20:25:23+07:00
 draft: false
 description: ''
+tags: ['javascript']
 ---
 
 Here I will show you a simple way to generate a ranged random

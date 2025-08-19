@@ -3,6 +3,7 @@ title = 'Pointer and Const in C++'
 date = 2024-06-15T20:59:34+07:00
 draft = false
 description = ''
+tags = ["c++"]
 [cover]
 image = "https://images.unsplash.com/photo-1586296188195-89285b63f670?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 caption = "Source: [unsplash](https://unsplash.com/photos/white-and-black-star-print-textile-4993XnXQKHY)"

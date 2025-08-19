@@ -3,6 +3,7 @@ title = 'Dynamic Array in C Simplified'
 date = 2024-07-02T13:30:14+07:00
 draft = false
 description = ''
+tags = ["c"]
 [cover]
 image = "https://images.unsplash.com/photo-1644357655176-69d3fe7f2fcc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 caption = "Source: [unsplash](https://unsplash.com/photos/a-building-with-a-clock-on-the-side-of-it-YWR9NKDHnls)"

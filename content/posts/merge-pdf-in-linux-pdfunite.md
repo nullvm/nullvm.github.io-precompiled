@@ -3,6 +3,7 @@ title: 'Merge Pdf in Linux using pdfunite'
 date: 2024-10-24T20:22:38+07:00
 draft: false
 description: ''
+tags: ['linux']
 ---
 
 Merging pdf files in Linux is really simple, you can use a

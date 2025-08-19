@@ -3,6 +3,7 @@ title: 'Replicating Right Click Behavior using Vanilla Javascript'
 date: 2024-10-24T19:36:18+07:00
 draft: false
 description: ''
+tags: ['javascript']
 ---
 
 The idea is simple.

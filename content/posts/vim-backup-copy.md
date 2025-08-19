@@ -3,6 +3,7 @@ title: 'Vim Backup-Copy'
 date: 2025-06-12T21:41:46+07:00
 draft: false
 description: ''
+tags: ['vim']
 ---
 
 
