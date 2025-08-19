@@ -7,6 +7,9 @@ pagination.pagerSize: 5
 services:
   disqus:
     shortname: deniandriancode-github-io
+markup:
+  highlight:
+    style: onedark
 
 outputs:
   home:
