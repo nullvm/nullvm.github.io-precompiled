@@ -3,7 +3,7 @@ title: 'PicoCTF Writeup #492'
 date: 2025-08-19T11:09:54+07:00
 draft: false
 description: ''
-tags: ['CTF', 'ssti']
+tags: ['ctf', 'ssti']
 ---
 
 
