@@ -19,7 +19,7 @@ The challenge: [Standard Pizzas](https://play.picoctf.org/practice/challenge/482
 
 
 
-## Step 1: Upload Feature? More Like Upload *Malware*
+## Upload Feature? More Like Upload *Malware*
 
 The site lets you upload an image and then proudly tells you where it lives:
 
@@ -36,7 +36,7 @@ This is basically the cybersecurity equivalent of putting the house keys under t
 
 
 
-## Step 2: Congratulations, You Played Yourself
+## Congratulations, You Played Yourself
 
 So I uploaded this masterpiece called `script.php`:
 
@@ -57,7 +57,7 @@ Then I visited `/uploads/script.php` and the site politely told me:
 
 
 
-## Step 3: PHP Webshell as a Service™
+## PHP Webshell as a Service™
 
 One command was cute, but I wanted **full control**.
 So I made a tiny upgrade:
@@ -79,7 +79,7 @@ At this point I felt like a 90s movie hacker typing “access mainframe” — e
 
 
 
-## Step 4: Dear Root, I’m in Your Walls
+## Dear Root, I’m in Your Walls
 
 The challenge said the flag was hiding in `/root`.
 No problem. Let’s snoop:
@@ -115,7 +115,7 @@ picoCTF{wh47_c4n_u_d0_wPHP_a4ca6ea0}
 
 
 
-## Step 5: PHP + Uploads = Chaos.exe
+## PHP + Uploads = Chaos.exe
 
 What did we learn, kids?
 

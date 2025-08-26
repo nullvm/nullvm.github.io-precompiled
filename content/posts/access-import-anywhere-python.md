@@ -18,7 +18,7 @@ Today’s silly Python feature:
 
 
 
-## Step 1: Wait… I Can Do *That?*
+## Wait… I Can Do *That?*
 
 Normally in Python, you import modules at the top like a responsible developer:
 
@@ -42,7 +42,7 @@ This is silly and fun… until you realize it’s also nightmare fuel if your se
 
 
 
-## Step 2: Enter the MRO Black Magic 🧙‍♂️
+## Enter the MRO Black Magic 🧙‍♂️
 
 Python has something called the **Method Resolution Order (MRO)**.
 It’s basically the order Python looks through classes to find methods/attributes.
@@ -61,7 +61,7 @@ That one-liner is like the Konami code for Python internals. From there, attacke
 
 
 
-## Step 3: Why Hackers Love This
+## Why Hackers Love This
 
 If you’ve ever played with:
 
@@ -75,7 +75,7 @@ Nah. Some hacker just did `().__class__.__base__.__subclasses__()[1337]` and spa
 
 
 
-## Step 4: But Why Is This a Problem?
+## But Why Is This a Problem?
 
 Because developers sometimes write *innocent-looking* server code like this:
 
@@ -95,7 +95,7 @@ $ curl "http://example.com/calc?expr=__import__('os').system('rm -rf /')"
 
 
 
-## Step 5: The Actual Pro Tip
+## The Actual Pro Tip
 
 If you’re building anything in Python that runs on the internet:
 
