@@ -66,5 +66,127 @@ Powershell counterpart `Set-Location`. Alias `cd`, `sl`.
 Powershell counterpart `Copy-Item`. Alias `cp`, `copy`.
 
 ```pwsh
-cp file1.txt file2.txt
+> cp file1.txt file2.txt
 ```
+
+### mv
+
+Powershell counterpart `Move-Item`. Alias `mv`, `move`.
+
+```pwsh
+> mv oldname.txt newname.txt
+```
+
+### rm
+
+Powershell counterpart `Remove-Item`. Alias `rm`, `del`, `erase`.
+
+```pwsh
+> rm file.txt
+```
+
+### cat
+
+Powershell counterpart `Get-Content`. Alias `cat`, `gc`, `type`.
+
+```pwsh
+> cat file.txt
+```
+
+### echo
+
+Powershell counterpart `Write-Output`. Alias `echo`.
+
+```pwsh
+> echo "hi"
+```
+
+### grep
+
+Powershell counterpart `Select-String`.
+
+```pwsh
+> Select-String "word" file.txt
+```
+
+### which
+
+Powershell counterpart `Get-Command`. Alias `gcm`.
+
+```pwsh
+> gcm git
+```
+
+### man
+
+Powershell counterpart `Get-Help`.
+
+```pwsh
+> Get-Help Get-Location
+```
+
+### whoami
+
+Powershell counterpart `whoami`.
+
+```pwsh
+> whoami
+```
+
+### printenv
+
+```pwsh
+> Get-ChildItem Env:
+```
+
+### export VAR=value
+
+```pwsh
+$env:VAR="value"
+```
+
+### ps
+
+```pwsh
+> Get-Process
+```
+
+### kill
+
+```pwsh
+> Stop-Process -Id <PID>
+```
+
+### history
+
+```pwsh
+> Get-History
+```
+
+### ifconfig
+
+```pwsh
+> Get-NetIPAddress
+```
+
+### curl
+
+```pwsh
+> Invoke-WebRequest <URL>
+```
+
+### df
+
+```pwsh
+> Get-PSDrive
+```
+
+### stat
+
+```pwsh
+> Get-Item file
+```
+
+
+You can also view the list of aliases possible in powershell by using command `alias`.
+
